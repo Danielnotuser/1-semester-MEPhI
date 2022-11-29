@@ -21,7 +21,7 @@ int main()
 	if (bad)
 	{
 		printf("\nInput has been interrupted.\n");
-		printf("<---Goodbye!--->");
+		printf("<---Goodbye!--->\n");
 		return 1;
 	}	
 	while (n)
@@ -76,6 +76,6 @@ int main()
 		}	
 	}
 	free(arr);
-	printf("<---Goodbye!--->");
+	printf("<---Goodbye!--->\n");
 	return 0;
 }
