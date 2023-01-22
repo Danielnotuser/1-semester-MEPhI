@@ -29,7 +29,7 @@ int main()
 		switch (n)
 		{
 			case 1: 
-				free(arr);
+				if (arr) free(arr);
 				flag = init_array(&arr, &leng, &memo); 
 				break;
 			case 2: 
@@ -38,6 +38,11 @@ int main()
 					insert_value(&arr, &leng, ind, val, &memo); 
 				break;
 			case 3: 
+				if (!arr) 
+				{
+					printf("Error! Array is empty.\n");
+					break;
+				}
 				flag = input_delete(&ind, leng);
 				if (flag != 1)
 					delete_by_index(&arr, &leng, ind, ind, &memo); 
