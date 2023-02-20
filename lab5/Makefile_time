@@ -1,0 +1,37 @@
+shell: 
+	./time -s shell -f mark 10 100
+	./time -s shell -f mark 50 100
+	./time -s shell -f mark 100 100
+	./time -s shell -f mark 300 100
+	./time -s shell -f mark 500 100
+	./time -s shell -f mark 800 100
+	./time -s shell -f mark 1000 100
+	./time -s shell -f mark 3000 100
+	./time -s shell -f mark 5000 100
+	./time -s shell -f mark 8000 100
+	./time -s shell -f mark 10000 100
+quick: 
+	./time -s quick -f mark 10 100
+	./time -s quick -f mark 50 100
+	./time -s quick -f mark 100 100
+	./time -s quick -f mark 300 100
+	./time -s quick -f mark 500 100
+	./time -s quick -f mark 800 100
+	./time -s quick -f mark 1000 100
+	./time -s quick -f mark 3000 100
+	./time -s quick -f mark 5000 100
+	./time -s quick -f mark 8000 100
+	./time -s quick -f mark 10000 100
+qsort: 
+	./time -s qsort -f mark 10 100
+	./time -s qsort -f mark 50 100
+	./time -s qsort -f mark 100 100
+	./time -s qsort -f mark 300 100
+	./time -s qsort -f mark 500 100
+	./time -s qsort -f mark 800 100
+	./time -s qsort -f mark 1000 100
+	./time -s qsort -f mark 3000 100
+	./time -s qsort -f mark 5000 100
+	./time -s qsort -f mark 8000 100
+	./time -s qsort -f mark 10000 100
+	
