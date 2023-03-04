@@ -71,7 +71,7 @@ void insert_str(Elem* symb_first, Elem *symb_last, List *pref, List *str)
 {
 	Elem *symb_prev = elem_init();
 	Elem *symb_next = elem_init();
-	if (!symb_first) str->head = symb_prev;
+	if (!symb_first) str->head = symb_prev;     
 	else symb_first->next = symb_prev;
 	Elem *pref_symb;
 	pref_symb = pref->head;
